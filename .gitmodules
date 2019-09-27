@@ -1,3 +1,45 @@
 [submodule "catalan/ca-es_pocketsphinx-cmu"]
 	path = catalan/ca-es_pocketsphinx-cmu
 	url = https://github.com/synesthesiam/ca-es_pocketsphinx-cmu.git
+[submodule "dutch/nl_pocketsphinx-cmu"]
+	path = dutch/nl_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/nl_pocketsphinx-cmu.git
+[submodule "english/en-in_pocketsphinx-cmu"]
+	path = english/en-in_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/en-in_pocketsphinx-cmu.git
+[submodule "english/en-us_pocketsphinx-cmu"]
+	path = english/en-us_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/en-us_pocketsphinx-cmu.git
+[submodule "french/fr_pocketsphinx-cmu"]
+	path = french/fr_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/fr_pocketsphinx-cmu.git
+[submodule "german/de_pocketsphinx-cmu"]
+	path = german/de_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/de_pocketsphinx-cmu.git
+[submodule "greek/el-gr_pocketsphinx-cmu"]
+	path = greek/el-gr_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/el-gr_pocketsphinx-cmu.git
+[submodule "hindi/hi_pocketsphinx-cmu"]
+	path = hindi/hi_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/hi_pocketsphinx-cmu.git
+[submodule "kazakh/kz_pocketsphinx-cmu"]
+	path = kazakh/kz_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/kz_pocketsphinx-cmu.git
+[submodule "italian/it_pocketsphinx-cmu"]
+	path = italian/it_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/it_pocketsphinx-cmu.git
+[submodule "mandarin/zh-cn_pocketsphinx-cmu"]
+	path = mandarin/zh-cn_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/zh-cn_pocketsphinx-cmu.git
+[submodule "portuguese/pt-br_pocketsphinx-cmu"]
+	path = portuguese/pt-br_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/pt-br_pocketsphinx-cmu.git
+[submodule "russian/ru_pocketsphinx-cmu"]
+	path = russian/ru_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/ru_pocketsphinx-cmu.git
+[submodule "spanish/es-mexican_pocketsphinx-cmu"]
+	path = spanish/es-mexican_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/es-mexican_pocketsphinx-cmu.git
+[submodule "spanish/es_pocketsphinx-cmu"]
+	path = spanish/es_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/es_pocketsphinx-cmu.git
