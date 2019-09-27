@@ -1,0 +1,3 @@
+[submodule "catalan/ca-es_pocketsphinx-cmu"]
+	path = catalan/ca-es_pocketsphinx-cmu
+	url = https://github.com/synesthesiam/ca-es_pocketsphinx-cmu.git
