@@ -1,0 +1,5 @@
+profiles/
+.doit.db
+.venv/
+__pycache__/
+frequent_words.html
