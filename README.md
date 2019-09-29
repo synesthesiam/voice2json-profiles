@@ -15,48 +15,47 @@ The following languages are supported with at least one pre-trained speech model
 A model is considered to be **Verified** if at least one member of the community has reported success with it. Models that are not verified are still fine to use, and testing them is a great way to contribute!
 
 * Catalan
-    * [ca-es_pocketsphinx-cmu](catalan/ca-es_pocketsphinx-cmu)
+    * [ca-es_pocketsphinx-cmu](https://github.com/synesthesiam/ca-es_pocketsphinx-cmu)
 * Dutch (Nederlands)
-    * [nl_pocketsphinx-cmu](dutch/nl_pocketsphinx-cmu)
+    * [nl_pocketsphinx-cmu](https://github.com/synesthesiam/nl_pocketsphinx-cmu)
         * Status: **Verified**
 * English
     * U.S. English
-        * [en-us_pocketsphinx-cmu](english/en-us_pocketsphinx-cmu)
+        * [en-us_pocketsphinx-cmu](https://github.com/synesthesiam/en-us_pocketsphinx-cmu)
             * Status: **Verified**
-        * [en-us_kaldi-zamia](english/en-us_kaldi-zamia)
+        * [en-us_kaldi-zamia](https://github.com/synesthesiam/en-us_kaldi-zamia)
             * Status: **Verified**
     * Indian English
-        * [en-in_pocketsphinx-cmu](english/en-in_pocketsphinx-cmu)
+        * [en-in_pocketsphinx-cmu](https://github.com/synesthesiam/en-in_pocketsphinx-cmu)
 * French (Français)
-    * [fr_pocketsphinx-cmu](french/fr_pocketsphinx-cmu)
+    * [fr_pocketsphinx-cmu](https://github.com/synesthesiam/fr_pocketsphinx-cmu)
         * Status: **Verified**
 * German (Deutsch)
-    * [de_pocketsphinx-cmu](german/de_pocketsphinx-cmu)
-        * Status: **Verified**
+    * [de_pocketsphinx-cmu](https://github.com/synesthesiam/de_pocketsphinx-cmu)
 * Greek (Ελληνικά)
-    * [el-gr_pocketsphinx-cmu](greek/el-gr_pocketsphinx-cmu)
+    * [el-gr_pocketsphinx-cmu](https://github.com/synesthesiam/el-gr_pocketsphinx-cmu)
 * Hindi (Devanagari)
-    * [hi_pocketsphinx-cmu](hindi/hi_pocketsphinx-cmu)
+    * [hi_pocketsphinx-cmu](https://github.com/synesthesiam/hi_pocketsphinx-cmu)
 * Italian (Italiano)
-    * [it_pocketsphinx-cmu](italian/it_pocketsphinx-cmu)
+    * [it_pocketsphinx-cmu](https://github.com/synesthesiam/it_pocketsphinx-cmu)
         * Status: **Verified**
 * Kazakh (қазақша)
-    * [kz_pocketsphinx-cmu](kazakh/kz_pocketsphinx-cmu)
+    * [kz_pocketsphinx-cmu](https://github.com/synesthesiam/kz_pocketsphinx-cmu)
 * Mandarin (中文)
-    * [zh-cn_pocketsphinx-cmu](mandarin/zh-cn_pocketsphinx-cmu)
+    * [zh-cn_pocketsphinx-cmu](https://github.com/synesthesiam/zh-cn_pocketsphinx-cmu)
 * Portugese (Português)
-    * [pt-br_pocketsphinx-cmu](portuguese/pt-br_pocketsphinx-cmu)
+    * [pt-br_pocketsphinx-cmu](https://github.com/synesthesiam/pt-br_pocketsphinx-cmu)
         * Status: **Verified**
 * Russian (Русский)
-    * [ru_pocketsphinx-cmu](russian/ru_pocketsphinx-cmu)
+    * [ru_pocketsphinx-cmu](https://github.com/synesthesiam/ru_pocketsphinx-cmu)
 * Spanish (Español)
-    * [es_pocketsphinx-cmu](spanish/es_pocketsphinx-cmu)
+    * [es_pocketsphinx-cmu](https://github.com/synesthesiam/es_pocketsphinx-cmu)
     * Mexian Spanish
-        * [es_mexican_pocketsphinx-cmu](spanish/es_mexican_pocketsphinx-cmu)
+        * [es_mexican_pocketsphinx-cmu](https://github.com/synesthesiam/es_mexican_pocketsphinx-cmu)
 * Swedish (svenska)
-    * [sv_kaldi-montreal](swedish/sv_kaldi-montreal)
+    * [sv_kaldi-montreal](https://github.com/synesthesiam/sv_kaldi-montreal)
 * Vietnamese (Tiếng Việt)
-    * [vi_kaldi-montreal](vietnamese/vi_kaldi-montreal)
+    * [vi_kaldi-montreal](https://github.com/synesthesiam/vi_kaldi-montreal)
 
 ## Acknowledgements
 
