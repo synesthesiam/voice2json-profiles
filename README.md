@@ -51,7 +51,7 @@ A model is considered to be **Verified** if at least one member of the community
 * Spanish (Español)
     * [es_pocketsphinx-cmu](https://github.com/synesthesiam/es_pocketsphinx-cmu)
     * Mexian Spanish
-        * [es_mexican_pocketsphinx-cmu](https://github.com/synesthesiam/es_mexican_pocketsphinx-cmu)
+        * [es-mexican_pocketsphinx-cmu](https://github.com/synesthesiam/es-mexican_pocketsphinx-cmu)
 * Swedish (svenska)
     * [sv_kaldi-montreal](https://github.com/synesthesiam/sv_kaldi-montreal)
 * Vietnamese (Tiếng Việt)
