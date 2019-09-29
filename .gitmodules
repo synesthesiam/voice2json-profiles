@@ -46,3 +46,9 @@
 [submodule "english/en-us_kaldi-zamia"]
 	path = english/en-us_kaldi-zamia
 	url = https://github.com/synesthesiam/en-us_kaldi-zamia.git
+[submodule "swedish/sv_kaldi-montreal"]
+	path = swedish/sv_kaldi-montreal
+	url = https://github.com/synesthesiam/sv_kaldi-montreal.git
+[submodule "vietnamese/vi_kaldi-montreal"]
+	path = vietnamese/vi_kaldi-montreal
+	url = https://github.com/synesthesiam/vi_kaldi-montreal.git
