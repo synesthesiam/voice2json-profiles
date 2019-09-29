@@ -43,3 +43,6 @@
 [submodule "spanish/es_pocketsphinx-cmu"]
 	path = spanish/es_pocketsphinx-cmu
 	url = https://github.com/synesthesiam/es_pocketsphinx-cmu.git
+[submodule "english/en-us_kaldi-zamia"]
+	path = english/en-us_kaldi-zamia
+	url = https://github.com/synesthesiam/en-us_kaldi-zamia.git
