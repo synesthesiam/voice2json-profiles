@@ -25,6 +25,7 @@ A model is considered to be **Verified** if at least one member of the community
             * Status: **Verified**
         * [en-us_kaldi-zamia](https://github.com/synesthesiam/en-us_kaldi-zamia)
             * Status: **Verified**
+        * [en-us_julius-github](https://github.com/synesthesiam/en-us_julius-github)
     * Indian English
         * [en-in_pocketsphinx-cmu](https://github.com/synesthesiam/en-in_pocketsphinx-cmu)
 * French (Français)
@@ -43,6 +44,8 @@ A model is considered to be **Verified** if at least one member of the community
     * [kz_pocketsphinx-cmu](https://github.com/synesthesiam/kz_pocketsphinx-cmu)
 * Mandarin (中文)
     * [zh-cn_pocketsphinx-cmu](https://github.com/synesthesiam/zh-cn_pocketsphinx-cmu)
+* Polish (polski)
+    * [pl_julius-github](https://github.com/synesthesiam/pl_julius-github)
 * Portugese (Português)
     * [pt-br_pocketsphinx-cmu](https://github.com/synesthesiam/pt-br_pocketsphinx-cmu)
         * Status: **Verified**
@@ -64,6 +67,7 @@ The acoustic models and pronunciation dictionaries come from one of:
 * [CMU Sphinx Acoustic Models](https://sourceforge.net/projects/cmusphinx/files/Acoustic%20and%20Language%20Models/)
 * [Zamia ASR Models](https://github.com/gooofy/zamia-speech)
 * [Montreal Forced Aligner Pretrained Models](https://montreal-forced-aligner.readthedocs.io/en/latest/pretrained_models.html)
+* [Julius Models](https://sourceforge.net/projects/juliusmodels/)
 
 When language models or grapheme-to-phoneme models were unavailable, they were generated using:
 
