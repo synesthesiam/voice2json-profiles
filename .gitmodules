@@ -52,3 +52,9 @@
 [submodule "vietnamese/vi_kaldi-montreal"]
 	path = vietnamese/vi_kaldi-montreal
 	url = https://github.com/synesthesiam/vi_kaldi-montreal.git
+[submodule "english/en-us_julius-github"]
+	path = english/en-us_julius-github
+	url = https://github.com/synesthesiam/en-us_julius-github.git
+[submodule "polish/pl_julius-github"]
+	path = polish/pl_julius-github
+	url = https://github.com/synesthesiam/pl_julius-github
