@@ -33,6 +33,7 @@ A model is considered to be **Verified** if at least one member of the community
         * Status: **Verified**
 * German (Deutsch)
     * [de_pocketsphinx-cmu](https://github.com/synesthesiam/de_pocketsphinx-cmu)
+    * [de_kaldi-zamia](https://github.com/synesthesiam/de_kaldi-zamia)
 * Greek (Ελληνικά)
     * [el-gr_pocketsphinx-cmu](https://github.com/synesthesiam/el-gr_pocketsphinx-cmu)
 * Hindi (Devanagari)

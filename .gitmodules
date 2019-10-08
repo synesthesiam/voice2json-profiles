@@ -78,3 +78,7 @@
 	path = polish/pl_julius-github
 	url = https://github.com/synesthesiam/pl_julius-github
 	branch = master
+[submodule "german/de_kaldi-zamia"]
+	path = german/de_kaldi-zamia
+	url = https://github.com/synesthesiam/de_kaldi-zamia
+	branch = master
