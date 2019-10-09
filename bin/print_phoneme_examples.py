@@ -24,6 +24,10 @@ def main():
 
     # phoneme -> [(word, pronunciation), ...]
     examples = defaultdict(list)
+    example_words = set()
+
+    # Words with more than one pronunciation
+    multi_pron_words = set()
 
     # Find pronunciations for each frequently used word
     with open(args.dictionary, "r") as dict_file:
@@ -39,25 +43,56 @@ def main():
             if "(" in word:
                 word = word[: word.index("(")]
 
+            # Exclude meta words from Julius dictionaries
+            parts = [p for p in parts if p[0] not in ["@", "["]]
+
             # Record example words for each phoneme
             upper_word = word.upper()
             if upper_word in words:
+
+                # Check if word has already been part of an example
+                if word in example_words:
+                    multi_pron_words.add(word)
+
                 pronunciation = parts[1:]
                 for phoneme in pronunciation:
                     examples[phoneme].append((word, pronunciation))
+                    example_words.add(word)
 
-    # Pick unique example words for every phoneme
+    # 1st pass: pick unique example words for every phoneme.
+    # Prefer words without multiple pronunciations.
     used_words = set()
-    for phoneme in sorted(examples.keys()):
+    assigned_words = {}
+    for phoneme in examples:
         # Choose the shortest, unused example word for this phoneme.
         # Exclude words with 3 or fewer letters.
+        # Exclude words with multiple pronunciations.
         for word, pron in sorted(examples[phoneme], key=lambda kv: len(kv[0])):
-            if len(word) > 3 and (not word in used_words):
-                # Output format is:
-                # phoneme word pronunciation
-                print(phoneme, word, " ".join(pron))
+            if (
+                (len(word) > 3)
+                and (word not in multi_pron_words)
+                and (word not in used_words)
+            ):
+                assigned_words[phoneme] = (word, pron)
                 used_words.add(word)
                 break
+
+    # 2nd pass: fill in remaining phonemes.
+    # Print assigned words.
+    for phoneme in sorted(examples.keys()):
+        if phoneme not in assigned_words:
+            # Choose the shortest, unused example word for this phoneme.
+            # Exclude words with 3 or fewer letters.
+            for word, pron in sorted(examples[phoneme], key=lambda kv: len(kv[0])):
+                if (len(word) > 3) and (word not in used_words):
+                    assigned_words[phoneme] = (word, pron)
+                    used_words.add(word)
+                    break
+
+        # Output format is:
+        # phoneme word pronunciation
+        example_word, example_pron = assigned_words[phoneme]
+        print(phoneme, example_word, " ".join(example_pron))
 
 
 # -----------------------------------------------------------------------------

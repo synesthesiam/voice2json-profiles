@@ -35,16 +35,18 @@ def main():
                     ["espeak-ng", "-q", "-x", "--sep= "] + espeak_args + [word]
                 )
                 .decode()
-                .strip(),
+                .strip()
+                .replace("'", ""),
             ),
         )
 
-    with concurrent.futures.ThreadPoolExecutor() as executor:
+    with concurrent.futures.ThreadPoolExecutor(8) as executor:
         word_to_espeak = dict(executor.map(to_espeak, words))
 
     # phoneme -> espeak
     candidates = Counter()
     all_phonemes = set()
+    word_pronunciations = defaultdict(list)
 
     # Find pronunciations for each frequently used word
     with open(args.dictionary, "r") as dict_file:
@@ -60,6 +62,9 @@ def main():
             if "(" in word:
                 word = word[: word.index("(")]
 
+            # Exclude meta words from Julius dictionaries
+            parts = [p for p in parts if p[0] not in ["@", "["]]
+
             pronunciation = parts[1:]
             all_phonemes.update(pronunciation)
 
@@ -69,12 +74,20 @@ def main():
 
             upper_word = word.upper()
             if (upper_word in words) and (upper_word in word_to_espeak):
-                espeak_phonemes = word_to_espeak[upper_word]
+                word_pronunciations[upper_word].append(pronunciation)
 
-                scale = len(espeak_phonemes) / len(pronunciation)
-                for i, dict_phoneme in enumerate(pronunciation):
-                    j = int(scale * i)
-                    candidates[(dict_phoneme, espeak_phonemes[j])] += 1
+    for upper_word, word_prons in word_pronunciations.items():
+        # Skip words with multiple pronunciations
+        if len(word_prons) > 1:
+            continue
+
+        pronunciation = word_prons[0]
+        espeak_phonemes = word_to_espeak[upper_word]
+
+        scale = len(espeak_phonemes) / len(pronunciation)
+        for i, dict_phoneme in enumerate(pronunciation):
+            j = int(scale * i)
+            candidates[(dict_phoneme, espeak_phonemes[j])] += 1
 
     # -------------------------------------------------------------------------
 
