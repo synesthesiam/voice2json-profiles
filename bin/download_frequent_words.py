@@ -42,6 +42,7 @@ def main():
         "por": "portuguese",
         "swe": "swedish",
         "cat": "catalan",
+        "kor": "korean",
     }
 
     for language_code, language_name in languages.items():

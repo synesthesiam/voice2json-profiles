@@ -78,13 +78,25 @@ def main():
                 break
 
     # 2nd pass: fill in remaining phonemes.
-    # Print assigned words.
+    # Prefer words > 3 characters long.
     for phoneme in sorted(examples.keys()):
         if phoneme not in assigned_words:
             # Choose the shortest, unused example word for this phoneme.
             # Exclude words with 3 or fewer letters.
             for word, pron in sorted(examples[phoneme], key=lambda kv: len(kv[0])):
                 if (len(word) > 3) and (word not in used_words):
+                    assigned_words[phoneme] = (word, pron)
+                    used_words.add(word)
+                    break
+
+    # 3rd pass: fill in remaining phonemes.
+    # Print assigned words.
+    for phoneme in sorted(examples.keys()):
+        if phoneme not in assigned_words:
+            # Choose the shortest, unused example word for this phoneme.
+            # Exclude words with 3 or fewer letters.
+            for word, pron in sorted(examples[phoneme], key=lambda kv: len(kv[0])):
+                if word not in used_words:
                     assigned_words[phoneme] = (word, pron)
                     used_words.add(word)
                     break
