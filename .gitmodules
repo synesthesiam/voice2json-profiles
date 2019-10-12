@@ -82,3 +82,6 @@
 	path = german/de_kaldi-zamia
 	url = https://github.com/synesthesiam/de_kaldi-zamia
 	branch = master
+[submodule "korean/ko-KR_kaldi-montreal"]
+	path = korean/ko-KR_kaldi-montreal
+	url = https://github.com/synesthesiam/ko-kr_kaldi-montreal
