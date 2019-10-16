@@ -85,3 +85,4 @@
 [submodule "korean/ko-KR_kaldi-montreal"]
 	path = korean/ko-KR_kaldi-montreal
 	url = https://github.com/synesthesiam/ko-kr_kaldi-montreal
+	branch = master
