@@ -44,7 +44,7 @@ def main():
                 word = word[: word.index("(")]
 
             # Exclude meta words from Julius dictionaries
-            parts = [p for p in parts if p[0] not in ["@", "["]]
+            parts = [p for p in parts if (len(p) == 1) or (p[0] not in ["@", "["])]
 
             # Record example words for each phoneme
             upper_word = word.upper()
