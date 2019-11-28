@@ -16,7 +16,13 @@ def main():
     )
     parser.add_argument("frequent_words", help="Path to text file with frequent words")
     parser.add_argument("dictionary", help="Path to pronunciation dictionary")
+    parser.add_argument(
+        "--exclude_chars", nargs="*", default=["'"], help="Phoneme characters to exclude"
+    )
     args = parser.parse_args()
+
+    args.exclude_chars = set(args.exclude_chars)
+    phoneme_transform = lambda p: "".join(c for c in p if c not in args.exclude_chars)
 
     # Download frequently used words in the given language
     with open(args.frequent_words, "r") as word_file:
@@ -44,7 +50,8 @@ def main():
                 word = word[: word.index("(")]
 
             # Exclude meta words from Julius dictionaries
-            parts = [p for p in parts if (len(p) == 1) or (p[0] not in ["@", "["])]
+            if parts[1].startswith("["):
+                parts = parts[1:]
 
             # Record example words for each phoneme
             upper_word = word.upper()
@@ -54,7 +61,8 @@ def main():
                 if word in example_words:
                     multi_pron_words.add(word)
 
-                pronunciation = parts[1:]
+                pronunciation = [phoneme_transform(p) for p in parts[1:]]
+
                 for phoneme in pronunciation:
                     examples[phoneme].append((word, pronunciation))
                     example_words.add(word)
