@@ -14,7 +14,7 @@ def main():
     )
     parser.add_argument("frequent_words", help="Path to text file with frequent words")
     parser.add_argument("dictionary", help="Path to pronunciation dictionary")
-    parser.add_argument("--voice", help="espeak voice")
+    parser.add_argument("--voice", required=True, help="espeak voice")
     parser.add_argument(
         "--exclude_chars", nargs="*", default=["'"], help="Phoneme characters to exclude"
     )

@@ -4,3 +4,4 @@ requests
 pyyaml
 pydash
 conllu
+quart==0.6.15

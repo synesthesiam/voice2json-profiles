@@ -32,7 +32,7 @@ def main():
         ]
 
         for p in common_files:
-            if not p.exists():
+            if not path_exists(p):
                 print(profile_name, "missing", p.name)
 
         # ---------------------------------------------------------------------
@@ -63,9 +63,23 @@ def main():
                 )
 
             for p in kaldi_files:
-                if not p.exists():
+                if not path_exists(p):
                     print(profile_name, "missing", p.name)
 
+
+# -----------------------------------------------------------------------------
+
+def path_exists(path):
+    if not path.exists():
+        # Try .gz
+        gzip_path = path.parent / f"{path.name}.gz"
+        if not gzip_path.exists():
+            # Try .gz-part-00
+            part0_path = path.parent / f"{path.name}.gz.part-00"
+
+            return part0_path.exists()
+
+    return True
 
 # -----------------------------------------------------------------------------
 
