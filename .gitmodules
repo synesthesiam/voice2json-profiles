@@ -86,3 +86,7 @@
 	path = korean/ko-KR_kaldi-montreal
 	url = https://github.com/synesthesiam/ko-kr_kaldi-montreal
 	branch = master
+[submodule "dutch/nl_kaldi-cgn"]
+	path = dutch/nl_kaldi-cgn
+	url = https://github.com/synesthesiam/nl_kaldi-cgn.git
+	branch = master
