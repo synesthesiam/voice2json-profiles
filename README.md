@@ -8,6 +8,18 @@ Files are contained in `<LANGUAGE>/<LOCALE>` directories. Each locale directory 
 
 Directories with `pocketsphinx` contain [CMU Sphinx](https://cmusphinx.github.io/) acoustic models. Directories with `kaldi` contain [Kaldi](https://kaldi-asr.org) acoustic models (either `gmm` or `nnet3`).
 
+Some files are split into multiple parts so that they can be uploaded to GitHub. This is done with the `split` command:
+
+```bash
+split -d -b 25M FILE FILE.part-
+```
+
+They can be recombined simply with:
+
+```bash
+cat FILE.part-* > FILE
+```
+
 ## Supported Languages
 
 `voice2json` supports the following languages/locales. I don't speak or write any language besides U.S. English very well, so **please** let me know if any profile is broken or could be improved!
