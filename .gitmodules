@@ -90,3 +90,6 @@
 	path = dutch/nl_kaldi-cgn
 	url = https://github.com/synesthesiam/nl_kaldi-cgn.git
 	branch = master
+[submodule "french/fr_kaldi-guyot"]
+	path = french/fr_kaldi-guyot
+	url = https://github.com/synesthesiam/fr_kaldi-guyot.git
