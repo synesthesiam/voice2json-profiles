@@ -58,7 +58,7 @@ def main():
                     "bytes_expected": os.path.getsize(file_name),
                 }
             )
-            file_details["parts"] = parts
+            file_details["parts"] = sorted(parts, key=lambda p: p["fragment"])
         elif unzip:
             file_details["url"] += ".gz"
 

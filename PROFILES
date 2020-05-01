@@ -2,10 +2,12 @@ catalan/ca-es_pocketsphinx-cmu
 dutch/nl_kaldi-cgn
 dutch/nl_pocketsphinx-cmu
 english/en-in_pocketsphinx-cmu
+english/en-us_deepspeech-mozilla
 english/en-us_julius-github
 english/en-us_kaldi-zamia
 english/en-us_pocketsphinx-cmu
 french/fr_pocketsphinx-cmu
+german/de_deepspeech-aashishag
 german/de_kaldi-zamia
 german/de_pocketsphinx-cmu
 greek/el-gr_pocketsphinx-cmu
