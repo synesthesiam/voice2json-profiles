@@ -93,3 +93,6 @@
 [submodule "french/fr_kaldi-guyot"]
 	path = french/fr_kaldi-guyot
 	url = https://github.com/synesthesiam/fr_kaldi-guyot.git
+[submodule "english/en-us_deepspeech-mozilla"]
+	path = english/en-us_deepspeech-mozilla
+	url = https://github.com/synesthesiam/en-us_deepspeech-mozilla.git
