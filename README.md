@@ -6,7 +6,10 @@ Speech models and supporting files for [voice2json](https://github.com/synesthes
 
 Files are contained in `<LANGUAGE>/<LOCALE>` directories. Each locale directory should contain a `SOURCE` file describing where it was sourced from. The `LICENSE` file in each locale directory covers the artifacts for that specific profile.
 
-Directories with `pocketsphinx` contain [CMU Sphinx](https://cmusphinx.github.io/) acoustic models. Directories with `kaldi` contain [Kaldi](https://kaldi-asr.org) acoustic models (either `gmm` or `nnet3`).
+* Directories with `pocketsphinx` contain [CMU Sphinx](https://cmusphinx.github.io/) acoustic models
+* Directories with `kaldi` contain [Kaldi](https://kaldi-asr.org) acoustic models (either `gmm` or `nnet3`).
+* Directories with `deepspeech` contain [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) acoustic models (version 0.6).
+* Directories with `julius` contain [Julius](https://github.com/julius-speech/julius) acoustic models (DNN, version 4.5).
 
 Some files are split into multiple parts so that they can be uploaded to GitHub. This is done with the `split` command:
 
