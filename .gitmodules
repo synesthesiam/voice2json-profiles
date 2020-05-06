@@ -96,3 +96,6 @@
 [submodule "english/en-us_deepspeech-mozilla"]
 	path = english/en-us_deepspeech-mozilla
 	url = https://github.com/synesthesiam/en-us_deepspeech-mozilla.git
+[submodule "german/de_deepspeech-aashishag"]
+	path = german/de_deepspeech-aashishag
+	url = https://github.com/synesthesiam/de_deepspeech-aashishag.git
