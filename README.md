@@ -151,7 +151,7 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>
         <a href="https://github.com/synesthesiam/de_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
-      <td>German</td>
+      <td>German (Deutsch)</td>
       <td>de</td>
       <td>pocketsphinx</td>
       <td>&#9733; &#9733; &#9733; &#9733; &#9733; (17x)</td>
@@ -161,7 +161,7 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>
         <a href="https://github.com/synesthesiam/de_deepspeech-aashishag/archive/v1.0.tar.gz">Download</a>
       </td>
-      <td>German</td>
+      <td>German (Deutsch)</td>
       <td>de-DE</td>
       <td>deepspeech</td>
       <td>&#9733; &#9733; &#9733; &#9733; &#9733; (1x)</td>
@@ -171,7 +171,7 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>
         <a href="https://github.com/synesthesiam/de_kaldi-zamia/archive/v2.0.tar.gz">Download</a>
       </td>
-      <td>German</td>
+      <td>German (Deutsch)</td>
       <td>de-DE</td>
       <td>kaldi</td>
       <td>&#9733; &#9733; &#9733; &#9733; &#9733; (4x)</td>

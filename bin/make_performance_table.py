@@ -9,6 +9,7 @@ import yaml
 from yattag import Doc, indent
 
 NATIVE = {
+    "de": "Deutsch",
     "nl": "Nederlands",
     "fr": "Français",
     "el-gr": "Ελληνικά",
