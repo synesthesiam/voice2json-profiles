@@ -99,3 +99,6 @@
 [submodule "german/de_deepspeech-aashishag"]
 	path = german/de_deepspeech-aashishag
 	url = https://github.com/synesthesiam/de_deepspeech-aashishag.git
+[submodule "korean/ko-kr_kaldi-montreal"]
+	path = korean/ko-kr_kaldi-montreal
+	url = https://github.com/synesthesiam/ko-kr_kaldi-montreal.git

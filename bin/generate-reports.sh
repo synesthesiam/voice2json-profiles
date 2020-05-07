@@ -110,7 +110,7 @@ for profile in "${profiles[@]}"; do
         voice2json -p "${dest_dir}" --debug test-examples --open --directory "${open_dir}" | \
             jq . > "${open_dir}/${report_name}"
 
-        cp "${open_dir}/report.json" "${src_dir}/${profile}/test/open/"
+        cp "${open_dir}/${report_name}" "${src_dir}/${profile}/test/open/"
     else
         echo "${open_dir}" does not exist
     fi

@@ -6,6 +6,7 @@ english/en-us_deepspeech-mozilla
 english/en-us_julius-github
 english/en-us_kaldi-zamia
 english/en-us_pocketsphinx-cmu
+french/fr_kaldi-guyot
 french/fr_pocketsphinx-cmu
 german/de_deepspeech-aashishag
 german/de_kaldi-zamia
@@ -14,7 +15,7 @@ greek/el-gr_pocketsphinx-cmu
 hindi/hi_pocketsphinx-cmu
 italian/it_pocketsphinx-cmu
 kazakh/kz_pocketsphinx-cmu
-korean/ko-KR_kaldi-montreal
+korean/ko-kr_kaldi-montreal
 mandarin/zh-cn_pocketsphinx-cmu
 polish/pl_julius-github
 portuguese/pt-br_pocketsphinx-cmu
