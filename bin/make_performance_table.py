@@ -159,7 +159,8 @@ def main():
 
                             doc.asis(closed_text)
                         else:
-                            text("UNTESTED")
+                            with tag("strong"):
+                                text("UNTESTED")
 
                     # Open
                     with tag("td"):

@@ -48,7 +48,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>Catalan</td>
       <td>ca-es</td>
       <td>pocketsphinx</td>
-      <td>UNTESTED</td>
+      <td>
+        <strong>UNTESTED</strong>
+      </td>
       <td>
         <strong>UNTESTED</strong>
       </td>
@@ -192,7 +194,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>Hindi (Devanagari)</td>
       <td>hi</td>
       <td>pocketsphinx</td>
-      <td>UNTESTED</td>
+      <td>
+        <strong>UNTESTED</strong>
+      </td>
       <td>
         <strong>UNTESTED</strong>
       </td>
@@ -214,7 +218,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>Kazakh (қазақша)</td>
       <td>kz</td>
       <td>pocketsphinx</td>
-      <td>UNTESTED</td>
+      <td>
+        <strong>UNTESTED</strong>
+      </td>
       <td>
         <strong>UNTESTED</strong>
       </td>
@@ -236,7 +242,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>Mandarin</td>
       <td>zh-cn</td>
       <td>pocketsphinx</td>
-      <td>UNTESTED</td>
+      <td>
+        <strong>UNTESTED</strong>
+      </td>
       <td>
         <strong>UNTESTED</strong>
       </td>
@@ -248,7 +256,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>Polish (polski)</td>
       <td>pl</td>
       <td>julius</td>
-      <td>UNTESTED</td>
+      <td>
+        <strong>UNTESTED</strong>
+      </td>
       <td>
         <strong>UNTESTED</strong>
       </td>
