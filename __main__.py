@@ -30,7 +30,13 @@ for check_dir in Path(".").glob("*"):
 async def download_raw(path: str) -> Response:
     components = path.split("/")
     profile = components[0]
-    artifact = "/".join(components[3:])
+
+    if components[1] == "raw":
+        # /raw/master/{file}
+        artifact = "/".join(components[3:])
+    else:
+        # /{commit}/{file}
+        artifact = "/".join(components[2:])
 
     profile_dir = profile_dirs.get(profile)
     assert profile_dir, f"Missing directory for {profile}"

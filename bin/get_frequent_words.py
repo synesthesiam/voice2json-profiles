@@ -8,10 +8,13 @@ $ python3 get_frequent_words.py 100 < ARPA.lm
 """
 import argparse
 import heapq
+import re
 import sys
 
 # Ignore start/stop sentence tokens
 _IGNORE_WORDS = set(["<s>", "</s>"])
+
+_IGNORE_REGEX = re.compile(r"^[0-9,.%-]+$")
 
 
 def main():
@@ -43,6 +46,10 @@ def main():
 
             if (not word) or (word in _IGNORE_WORDS):
                 # Skip empty or ignored words
+                continue
+
+            # Skip numbers, etc.
+            if _IGNORE_REGEX.match(word):
                 continue
 
             if len(frequent_words) < args.n:

@@ -3,10 +3,9 @@
 Attempts to guess the correspondence between a speech system's phonemes and some
 other phoneme set (e.g., IPA or eSpeak).
 
-Requires 3 text files:
+Requires 2 text files:
 * phonemes - <word> <phoneme1> <phoneme2> ...
 * other - <word> <phoneme1> <phoneme2> ...
-* examples - <phoneme> <word> <phoneme1> <phoneme2> ...
 
 Alignment is done in 2 passes:
 
@@ -44,13 +43,14 @@ def main():
     )
     parser.add_argument("other", help="Path to file with words and other phonemes")
     parser.add_argument(
-        "examples", help="Path to file with speech system phoneme examples"
+        "--examples", help="Path to file with speech system phoneme examples"
     )
     parser.add_argument(
         "--missing", default="?", help="String to print for missing phonemes"
     )
     args = parser.parse_args()
 
+    all_phonemes: typing.Set[str] = set()
     words: typing.Dict[str, Word] = {}
 
     # Load speech system phonemes
@@ -59,12 +59,16 @@ def main():
             line = line.strip()
             if line:
                 word_str, *phonemes = line.split()
+                if not phonemes:
+                    continue
+
                 word = words.get(word_str)
                 if not word:
                     word = Word(word_str)
                     words[word_str] = word
 
                 word.phonemes = [clean(p) for p in phonemes]
+                all_phonemes.update(word.phonemes)
 
     # Load other phonemes
     with open(args.other, "r") as other_file:
@@ -72,6 +76,9 @@ def main():
             line = line.strip()
             if line:
                 word_str, *others = line.split()
+                if not others:
+                    continue
+
                 word = words.get(word_str)
                 if not word:
                     word = Word(word_str)
@@ -80,16 +87,16 @@ def main():
                 word.other = [clean(o) for o in others]
 
     # Load phoneme examples
-    all_phonemes: typing.Set[str] = set()
     phoneme_example: typing.Dict[str, str] = {}
 
-    with open(args.examples, "r") as examples_file:
-        for line in examples_file:
-            line = line.strip()
-            if line:
-                phoneme, example, *phonemes = line.split()
-                all_phonemes.add(phoneme)
-                phoneme_example[phoneme] = example
+    if args.examples:
+        with open(args.examples, "r") as examples_file:
+            for line in examples_file:
+                line = line.strip()
+                if line:
+                    phoneme, example, *phonemes = line.split()
+                    all_phonemes.add(phoneme)
+                    phoneme_example[phoneme] = example
 
     # -------------------------------------------------------------------------
 
@@ -118,6 +125,7 @@ def main():
     # Assume unassigned phonemes map to two "others".
     assigned_others = set(assignments.values())
     unassigned = all_phonemes - set(assignments)
+
     if unassigned:
         for word in words.values():
             if len(word.other) > len(word.phonemes):
@@ -144,11 +152,13 @@ def main():
 
     # Print candidates and ? for phonemes with no candidates
     for phoneme in sorted(all_phonemes):
-        print(
-            phoneme,
-            assignments.get(phoneme, args.missing),
-            phoneme_example.get(phoneme, ""),
-        )
+        print(phoneme, assignments.get(phoneme, args.missing), end="")
+
+        if args.examples:
+            print(" ", phoneme_example.get(phoneme, ""))
+        else:
+            # End line
+            print("")
 
 
 # -----------------------------------------------------------------------------

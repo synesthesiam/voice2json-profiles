@@ -8,7 +8,10 @@ import yaml
 
 from utils import load_profile
 
+
 def main():
+    print("Reading YAML paths from stdin...", file=sys.stderr)
+
     for yml_path_str in sys.stdin:
         yml_path = Path(yml_path_str.strip())
         profile_dir = yml_path.parent
@@ -69,6 +72,7 @@ def main():
 
 # -----------------------------------------------------------------------------
 
+
 def path_exists(path):
     if not path.exists():
         # Try .gz
@@ -80,6 +84,7 @@ def path_exists(path):
             return part0_path.exists()
 
     return True
+
 
 # -----------------------------------------------------------------------------
 

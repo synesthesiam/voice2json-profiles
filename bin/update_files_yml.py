@@ -10,7 +10,10 @@ import yaml
 
 def main():
     """Main entry point"""
-    assert len(sys.argv) > 1
+    if len(sys.argv) < 2:
+        print("Usage: update_files_yml.py files.yaml")
+        sys.exit(1)
+
     files_yaml_path = sys.argv[1]
     profile_root = Path(files_yaml_path).parent
     with open(files_yaml_path, "r") as files_yaml_file:

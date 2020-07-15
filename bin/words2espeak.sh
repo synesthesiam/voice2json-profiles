@@ -24,6 +24,6 @@ do
         echo -n "${line} "
     fi
 
-    phones="$(espeak-ng "${espeak_args[@]}" -q -x --sep=' ' "${line}" | sed -e 's/^[[:space:]]*//')"
+    phones="$(espeak-ng "${espeak_args[@]}" -q -x --sep=' ' -- "${line}" | sed -e 's/^[[:space:]]*//')"
     echo "${phones}"
 done

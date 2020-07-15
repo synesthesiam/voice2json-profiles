@@ -34,12 +34,12 @@ def main():
 
     print("Reading words from stdin...", file=sys.stderr)
     for word in sys.stdin:
-        word = transform(word.strip())
+        word = word.strip()
         if word:
             if args.print_word:
                 print(word, end=" ")
 
-            prons = pron_dict.get(word)
+            prons = pron_dict.get(transform(word))
             if prons:
                 print(args.sep.join(prons[0]))
             else:
