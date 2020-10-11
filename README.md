@@ -57,6 +57,20 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/rhasspy/cs_kaldi-rhasspy/archive/v1.0.tar.gz">Download</a>
+      </td>
+      <td>Czech</td>
+      <td>cs-cz</td>
+      <td>Kaldi</td>
+      <td>
+        <strong>UNTESTED</strong>
+      </td>
+      <td>
+        <strong>UNTESTED</strong>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://github.com/synesthesiam/nl_kaldi-cgn/archive/v1.1.tar.gz">Download</a>
       </td>
       <td>Dutch (Nederlands)</td>

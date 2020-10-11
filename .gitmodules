@@ -102,3 +102,6 @@
 [submodule "korean/ko-kr_kaldi-montreal"]
 	path = korean/ko-kr_kaldi-montreal
 	url = https://github.com/synesthesiam/ko-kr_kaldi-montreal.git
+[submodule "czech/cs_kaldi-rhasspy"]
+	path = czech/cs_kaldi-rhasspy
+	url = https://github.com/rhasspy/cs_kaldi-rhasspy.git
