@@ -29,6 +29,10 @@ for check_dir in Path(".").glob("*"):
 @app.route("/<path:path>")
 async def download_raw(path: str) -> Response:
     components = path.split("/")
+
+    if components[0] in ("synesthesiam", "rhasspy"):
+        components = components[1:]
+
     profile = components[0]
 
     if components[1] == "raw":

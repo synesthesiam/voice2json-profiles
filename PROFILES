@@ -1,4 +1,5 @@
 catalan/ca-es_pocketsphinx-cmu
+czech/cs_kaldi-rhasspy
 dutch/nl_kaldi-cgn
 dutch/nl_pocketsphinx-cmu
 english/en-in_pocketsphinx-cmu
@@ -13,6 +14,7 @@ german/de_kaldi-zamia
 german/de_pocketsphinx-cmu
 greek/el-gr_pocketsphinx-cmu
 hindi/hi_pocketsphinx-cmu
+italian/it_kaldi-rhasspy
 italian/it_pocketsphinx-cmu
 kazakh/kz_pocketsphinx-cmu
 korean/ko-kr_kaldi-montreal

@@ -227,6 +227,16 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/it_kaldi-rhasspy/archive/v1.0.tar.gz">Download</a>
+      </td>
+      <td>Italian (Italiano)</td>
+      <td>it</td>
+      <td>kaldi</td>
+      <td>&#9733; &#9733; &#9733; &#9733; &#9733; (1x)</td>
+      <td>&#9733; &#9733; &#9733; &#9733; &#9733; (1x)</td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://github.com/synesthesiam/kz_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
       <td>Kazakh (қазақша)</td>

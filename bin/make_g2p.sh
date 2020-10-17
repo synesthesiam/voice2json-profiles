@@ -28,6 +28,14 @@ trap finish EXIT
 
 # -----------------------------------------------------------------------------
 
+if [[ "$1" == '-' ]]; then
+    # Read from stdin into temporary file
+    dict_path="${temp_dir}/unformatted.dict"
+    cat > "${dict_path}"
+else
+    dict_path="$(realpath "$1")"
+fi
+
 # Format dictionary for phonetisaurus
 cd "${temp_dir}"
 perl -pe 's/\([0-9]+\)//;
