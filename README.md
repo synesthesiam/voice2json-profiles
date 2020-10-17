@@ -227,7 +227,7 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/synesthesiam/it_kaldi-rhasspy/archive/v1.0.tar.gz">Download</a>
+        <a href="https://github.com/rhasspy/it_kaldi-rhasspy/archive/v1.0.tar.gz">Download</a>
       </td>
       <td>Italian (Italiano)</td>
       <td>it</td>
