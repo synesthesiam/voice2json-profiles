@@ -33,6 +33,7 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
   <thead>
     <tr>
       <th></th>
+      <th></th>
       <th>Language</th>
       <th>Locale</th>
       <th>System</th>
@@ -42,6 +43,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
   </thead>
   <tbody>
     <tr>
+      <td>
+        <a href="https://github.com/synesthesiam/ca-es_pocketsphinx-cmu">View</a>
+      </td>
       <td>
         <a href="https://github.com/synesthesiam/ca-es_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
@@ -57,6 +61,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/rhasspy/cs_kaldi-rhasspy">View</a>
+      </td>
+      <td>
         <a href="https://github.com/rhasspy/cs_kaldi-rhasspy/archive/v1.0.tar.gz">Download</a>
       </td>
       <td>Czech</td>
@@ -71,6 +78,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/nl_kaldi-cgn">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/nl_kaldi-cgn/archive/v1.1.tar.gz">Download</a>
       </td>
       <td>Dutch (Nederlands)</td>
@@ -80,6 +90,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>&#9785; (1x)</td>
     </tr>
     <tr>
+      <td>
+        <a href="https://github.com/synesthesiam/nl_pocketsphinx-cmu">View</a>
+      </td>
       <td>
         <a href="https://github.com/synesthesiam/nl_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
@@ -91,6 +104,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/en-in_pocketsphinx-cmu">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/en-in_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
       <td>English</td>
@@ -101,6 +117,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/en-us_deepspeech-mozilla">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/en-us_deepspeech-mozilla/archive/v1.0.tar.gz">Download</a>
       </td>
       <td>English</td>
@@ -110,6 +129,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>&#9733; &#9733; &#9733; &#9733; (1x)</td>
     </tr>
     <tr>
+      <td>
+        <a href="https://github.com/synesthesiam/en-us_julius-github">View</a>
+      </td>
       <td>
         <a href="https://github.com/synesthesiam/en-us_julius-github/archive/v1.1.tar.gz">Download</a>
       </td>
@@ -123,6 +145,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/en-us_kaldi-zamia">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/en-us_kaldi-zamia/archive/v2.0.tar.gz">Download</a>
       </td>
       <td>English</td>
@@ -132,6 +157,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>&#9733; &#9733; &#9733; &#9733; (1x)</td>
     </tr>
     <tr>
+      <td>
+        <a href="https://github.com/synesthesiam/en-us_pocketsphinx-cmu">View</a>
+      </td>
       <td>
         <a href="https://github.com/synesthesiam/en-us_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
@@ -143,6 +171,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/fr_kaldi-guyot">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/fr_kaldi-guyot/archive/v1.0.tar.gz">Download</a>
       </td>
       <td>French (Français)</td>
@@ -152,6 +183,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>&#9733; &#9733; &#9733; &#9733; (1x)</td>
     </tr>
     <tr>
+      <td>
+        <a href="https://github.com/synesthesiam/fr_pocketsphinx-cmu">View</a>
+      </td>
       <td>
         <a href="https://github.com/synesthesiam/fr_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
@@ -163,6 +197,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/de_pocketsphinx-cmu">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/de_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
       <td>German (Deutsch)</td>
@@ -172,6 +209,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>&#9733; &#9733; &#9733; &#9733; &#9733; (3x)</td>
     </tr>
     <tr>
+      <td>
+        <a href="https://github.com/synesthesiam/de_deepspeech-aashishag">View</a>
+      </td>
       <td>
         <a href="https://github.com/synesthesiam/de_deepspeech-aashishag/archive/v1.0.tar.gz">Download</a>
       </td>
@@ -183,6 +223,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/de_kaldi-zamia">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/de_kaldi-zamia/archive/v2.0.tar.gz">Download</a>
       </td>
       <td>German (Deutsch)</td>
@@ -193,6 +236,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/el-gr_pocketsphinx-cmu">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/el-gr_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
       <td>Greek (Ελληνικά)</td>
@@ -202,6 +248,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>&#9785; (1x)</td>
     </tr>
     <tr>
+      <td>
+        <a href="https://github.com/synesthesiam/hi_pocketsphinx-cmu">View</a>
+      </td>
       <td>
         <a href="https://github.com/synesthesiam/hi_pocketsphinx-cmu/archive/v1.0.tar.gz">Download</a>
       </td>
@@ -217,6 +266,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/it_pocketsphinx-cmu">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/it_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
       <td>Italian (Italiano)</td>
@@ -227,6 +279,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/rhasspy/it_kaldi-rhasspy">View</a>
+      </td>
+      <td>
         <a href="https://github.com/rhasspy/it_kaldi-rhasspy/archive/v1.0.tar.gz">Download</a>
       </td>
       <td>Italian (Italiano)</td>
@@ -236,6 +291,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>&#9733; &#9733; &#9733; &#9733; &#9733; (1x)</td>
     </tr>
     <tr>
+      <td>
+        <a href="https://github.com/synesthesiam/kz_pocketsphinx-cmu">View</a>
+      </td>
       <td>
         <a href="https://github.com/synesthesiam/kz_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
@@ -251,6 +309,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/ko-kr_kaldi-montreal">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/ko-kr_kaldi-montreal/archive/v1.0.tar.gz">Download</a>
       </td>
       <td>Korean</td>
@@ -260,6 +321,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>&#9785; (4x)</td>
     </tr>
     <tr>
+      <td>
+        <a href="https://github.com/synesthesiam/zh-cn_pocketsphinx-cmu">View</a>
+      </td>
       <td>
         <a href="https://github.com/synesthesiam/zh-cn_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
@@ -275,6 +339,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/pl_julius-github">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/pl_julius-github/archive/v1.1.tar.gz">Download</a>
       </td>
       <td>Polish (polski)</td>
@@ -289,6 +356,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/pt-br_pocketsphinx-cmu">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/pt-br_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
       <td>Portuguese (Português)</td>
@@ -298,6 +368,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>&#9785; (11x)</td>
     </tr>
     <tr>
+      <td>
+        <a href="https://github.com/synesthesiam/ru_pocketsphinx-cmu">View</a>
+      </td>
       <td>
         <a href="https://github.com/synesthesiam/ru_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
@@ -309,6 +382,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/es_pocketsphinx-cmu">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/es_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
       <td>Spanish (Español)</td>
@@ -318,6 +394,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>&#9733; &#9733; &#9733; &#9733; (15x)</td>
     </tr>
     <tr>
+      <td>
+        <a href="https://github.com/synesthesiam/es-mexican_pocketsphinx-cmu">View</a>
+      </td>
       <td>
         <a href="https://github.com/synesthesiam/es-mexican_pocketsphinx-cmu/archive/v1.1.tar.gz">Download</a>
       </td>
@@ -329,6 +408,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/synesthesiam/sv_kaldi-montreal">View</a>
+      </td>
+      <td>
         <a href="https://github.com/synesthesiam/sv_kaldi-montreal/archive/v1.1.tar.gz">Download</a>
       </td>
       <td>Swedish (svenska)</td>
@@ -338,6 +420,9 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>&#9785; (1x)</td>
     </tr>
     <tr>
+      <td>
+        <a href="https://github.com/synesthesiam/vi_kaldi-montreal">View</a>
+      </td>
       <td>
         <a href="https://github.com/synesthesiam/vi_kaldi-montreal/archive/v1.1.tar.gz">Download</a>
       </td>
