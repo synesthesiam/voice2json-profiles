@@ -187,7 +187,7 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
         <a href="https://github.com/rhasspy/fr_kaldi-rhasspy">View</a>
       </td>
       <td>
-        <a href="https://github.com/rhasspy/fr_rhasspy-kaldi/archive/v1.0.tar.gz">Download</a>
+        <a href="https://github.com/rhasspy/fr_kaldi-rhasspy/archive/v1.0.tar.gz">Download</a>
       </td>
       <td>French (Français)</td>
       <td>fr</td>
