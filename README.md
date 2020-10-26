@@ -193,7 +193,7 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
       <td>fr</td>
       <td>kaldi</td>
       <td>&#9733; &#9733; &#9733; &#9733; &#9733; (3x)</td>
-      <td>&#9785; &#9785; &#9785; &#9785; &#9785; (0.5x)</td>
+      <td>&#9733; &#9733; &#9733; &#9733; &#9733; (0.5x)</td>
     </tr>
     <tr>
       <td>
