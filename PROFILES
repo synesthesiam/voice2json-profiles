@@ -8,6 +8,7 @@ english/en-us_julius-github
 english/en-us_kaldi-zamia
 english/en-us_pocketsphinx-cmu
 french/fr_kaldi-guyot
+french/fr_kaldi-rhasspy
 french/fr_pocketsphinx-cmu
 german/de_deepspeech-aashishag
 german/de_kaldi-zamia

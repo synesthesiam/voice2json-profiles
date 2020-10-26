@@ -184,6 +184,19 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/rhasspy/fr_kaldi-rhasspy">View</a>
+      </td>
+      <td>
+        <a href="https://github.com/rhasspy/fr_rhasspy-kaldi/archive/v1.0.tar.gz">Download</a>
+      </td>
+      <td>French (Français)</td>
+      <td>fr</td>
+      <td>kaldi</td>
+      <td>&#9733; &#9733; &#9733; &#9733; &#9733; (3x)</td>
+      <td>&#9785; &#9785; &#9785; &#9785; &#9785; (0.5x)</td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://github.com/synesthesiam/fr_pocketsphinx-cmu">View</a>
       </td>
       <td>
