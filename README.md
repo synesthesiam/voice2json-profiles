@@ -395,6 +395,19 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/rhasspy/es_kaldi-rhasspy">View</a>
+      </td>
+      <td>
+        <a href="https://github.com/rhasspy/es_kaldi-rhasspy/archive/v1.0.tar.gz">Download</a>
+      </td>
+      <td>Spanish (Español)</td>
+      <td>es</td>
+      <td>kaldi</td>
+      <td>&#9733; &#9733; &#9733; &#9733; &#9733; (4x)</td>
+      <td>&#9733; &#9733; &#9733; &#9733; &#9733; (1x)</td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://github.com/synesthesiam/es_pocketsphinx-cmu">View</a>
       </td>
       <td>

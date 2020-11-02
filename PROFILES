@@ -23,6 +23,7 @@ mandarin/zh-cn_pocketsphinx-cmu
 polish/pl_julius-github
 portuguese/pt-br_pocketsphinx-cmu
 russian/ru_pocketsphinx-cmu
+spanish/es_kaldi-rhasspy
 spanish/es-mexican_pocketsphinx-cmu
 spanish/es_pocketsphinx-cmu
 swedish/sv_kaldi-montreal
