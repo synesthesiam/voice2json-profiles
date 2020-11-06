@@ -382,6 +382,19 @@ Untested profiles (highlighted below) *may* work, but I don't have the necessary
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/rhasspy/ru_kaldi-rhasspy">View</a>
+      </td>
+      <td>
+        <a href="https://github.com/rhasspy/ru_kaldi-rhasspy/archive/v1.0.tar.gz">Download</a>
+      </td>
+      <td>Russian (Русский)</td>
+      <td>ru</td>
+      <td>kaldi</td>
+      <td>&#9733; &#9733; &#9733; &#9733; &#9733; (2x)</td>
+      <td>&#9733; &#9733; &#9733; &#9733; &#9733; (0.5x)</td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://github.com/synesthesiam/ru_pocketsphinx-cmu">View</a>
       </td>
       <td>

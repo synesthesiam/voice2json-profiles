@@ -114,3 +114,6 @@
 [submodule "spanish/es_kaldi-rhasspy"]
 	path = spanish/es_kaldi-rhasspy
 	url = https://github.com/rhasspy/es_kaldi-rhasspy.git
+[submodule "russian/ru_kaldi-rhasspy"]
+	path = russian/ru_kaldi-rhasspy
+	url = https://github.com/rhasspy/ru_kaldi-rhasspy.git
