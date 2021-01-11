@@ -117,3 +117,18 @@
 [submodule "russian/ru_kaldi-rhasspy"]
 	path = russian/ru_kaldi-rhasspy
 	url = https://github.com/rhasspy/ru_kaldi-rhasspy.git
+[submodule "french/fr_deepspeech-jaco"]
+	path = french/fr_deepspeech-jaco
+	url = https://github.com/rhasspy/fr_deepspeech-jaco.git
+[submodule "italian/it_deepspeech-jaco"]
+	path = italian/it_deepspeech-jaco
+	url = https://github.com/rhasspy/it_deepspeech-jaco.git
+[submodule "spanish/es_deepspeech-jaco"]
+	path = spanish/es_deepspeech-jaco
+	url = https://github.com/rhasspy/es_deepspeech-jaco.git
+[submodule "polish/pl_deepspeech-jaco"]
+	path = polish/pl_deepspeech-jaco
+	url = https://github.com/rhasspy/pl_deepspeech-jaco.git
+[submodule "german/de_deepspeech-jaco"]
+	path = german/de_deepspeech-jaco
+	url = https://github.com/rhasspy/de_deepspeech-jaco.git
