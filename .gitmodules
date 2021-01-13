@@ -132,3 +132,21 @@
 [submodule "german/de_deepspeech-jaco"]
 	path = german/de_deepspeech-jaco
 	url = https://github.com/rhasspy/de_deepspeech-jaco.git
+[submodule "english/en-us_larynx-kathleen"]
+	path = english/en-us_larynx-kathleen
+	url = https://github.com/rhasspy/en-us_larynx-kathleen.git
+[submodule "dutch/nl_larynx-rdh"]
+	path = dutch/nl_larynx-rdh
+	url = https://github.com/rhasspy/nl_larynx-rdh.git
+[submodule "french/fr_larynx-siwis"]
+	path = french/fr_larynx-siwis
+	url = https://github.com/rhasspy/fr_larynx-siwis.git
+[submodule "german/de_larynx-thorsten"]
+	path = german/de_larynx-thorsten
+	url = https://github.com/rhasspy/de_larynx-thorsten.git
+[submodule "russian/ru_larynx-nikolaev"]
+	path = russian/ru_larynx-nikolaev
+	url = https://github.com/rhasspy/ru_larynx-nikolaev.git
+[submodule "spanish/es_larynx-css10"]
+	path = spanish/es_larynx-css10
+	url = https://github.com/rhasspy/es_larynx-css10.git
