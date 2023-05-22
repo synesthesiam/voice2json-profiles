@@ -5,5 +5,5 @@ html5lib==1.0.1
 pydash==4.7.4
 pyyaml==5.4
 quart==0.6.15
-requests==2.21.0
+requests==2.31.0
 yattag==1.13.2
